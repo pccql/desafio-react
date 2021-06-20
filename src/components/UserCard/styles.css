@@ -1,0 +1,17 @@
+.box-pokemon {
+    background-color: #203144;
+    width: 450px;
+    height: 450px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.proprieties {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.propriety-item {
+    font-size: 20px;
+}

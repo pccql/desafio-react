@@ -1,0 +1,27 @@
+input {
+    width: 300px;
+    height: 40px;
+    font-size: large;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    padding-left: 8px;
+    border: none;
+    outline: none;
+}
+
+button {
+    height: 40px;
+    background-color: #FFCE31;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.input-button-container {
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
