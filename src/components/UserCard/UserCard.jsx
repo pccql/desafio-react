@@ -5,7 +5,7 @@ import './styles.css';
 function UserCard({ name, photo, companies, socialNetworks, repositoriesNumber, bio, location }) {
   return (
     <>
-      <div className="user=container">
+      <div className="user-container">
         <h2>{name}</h2>
         <img src={photo} alt="Foto usuário" width="150px" />
         <div className="data" >
